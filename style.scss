@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 217, 204);
+    background: url('https://i.pinimg.com/736x/f9/74/83/f974833c93cccf8e435dfb767d14545e.jpg') black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  /* date */
+
+  /* main heading */
+  .header {
+    margin: auto;
+    text-align: center;
+    padding: 0.4rem;
+    background-color:coral;
+    max-width: 400px;
+    border-radius: 12px;
+    font-family: cursive;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+    img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+   
+    }
+    h1{
+        margin: auto;
+        color: #fff;
+    }
+  }
+
+  #heading{
+     
+    font-size: 1.9rem;
+    font-family:cursive;
+    color: #fff;
+  }
+  
+  /* main box */
+  #box {
+      background-color: rgba(54, 52, 52,0.8);
+  width: 100vw;
+  height: 100%;
+    padding: 30px;
+    text-align: center;
+   transition: all;
+  
+  }
+
+
+  ul{
+      list-style: none;
+  }
+  /* the toggle button */
+a {max-width: 450px;
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    background-color:crimson ;
+      color: #fff;
+    margin: 1rem auto;
+  
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all ease 0.1s ;
+  
+  }
+  a:hover {
+    background-color: #fff;
+    color: #333;
+    transform: scale(1.1);
+  }
+
+p{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(252, 193, 151);
+}

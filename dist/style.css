@@ -1,0 +1,14 @@
+h1 {
+  background-color: blue;
+}
+
+.container {
+  margin: auto;
+}
+.container section {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}

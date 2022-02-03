@@ -2,18 +2,22 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fcd9cc;
-  background: url("https://i.pinimg.com/736x/f9/74/83/f974833c93cccf8e435dfb767d14545e.jpg") black;
+  background: #f857a6;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
+  background: linear-gradient(to right, #ff5858, #f857a6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
-/* date */
 /* main heading */
 .header {
   margin: auto;
   text-align: center;
   padding: 0.4rem;
-  background-color: coral;
+  background-color: #ff7e94;
   max-width: 400px;
   border-radius: 12px;
   font-family: cursive;
@@ -43,7 +47,6 @@ body {
 
 /* main box */
 #box {
-  background-color: rgba(54, 52, 52, 0.8);
   width: 100vw;
   height: 100%;
   padding: 30px;
@@ -77,8 +80,8 @@ a {
 a:hover {
   background-color: #fff;
   color: #333;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 p {

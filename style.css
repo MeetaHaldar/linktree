@@ -3,11 +3,8 @@ body {
   padding: 0;
   background-color: #fcd9cc;
   background: #f857a6;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
   background: linear-gradient(to right, #ff5858, #f857a6);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -15,16 +12,11 @@ body {
 /* main heading */
 .header {
   margin: auto;
-  text-align: center;
   padding: 0.4rem;
-  background-color: #ff7e94;
-  max-width: 400px;
   border-radius: 12px;
   font-family: cursive;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  font-size: 2rem;
 }
 
 .header img {
@@ -40,7 +32,7 @@ body {
 }
 
 #heading {
-  font-size: 1.9rem;
+  font-size: 1rem;
   font-family: cursive;
   color: #fff;
 }
@@ -78,8 +70,8 @@ a {
 }
 
 a:hover {
-  background-color: #fff;
-  color: #333;
+  background-color: rgb(244, 161, 161);
+  color: #222;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
@@ -88,6 +80,4 @@ p {
   margin: auto;
   text-align: center;
   color: #fff;
-  background-color: #fcc197;
 }
-/*# sourceMappingURL=style.css.map */
